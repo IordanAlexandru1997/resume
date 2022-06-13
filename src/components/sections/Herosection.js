@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
+import  avatar  from "../../images/avatar-1.png"
 
 function Herosection(props) {
   const { x, y } = props.position;
@@ -24,7 +25,7 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
+          <img src={avatar} alt="Bolby" className="mb-4" />
 
           <h1 className="mb-2 mt-0">Bolby Doe</h1>
           <p>
