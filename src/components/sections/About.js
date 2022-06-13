@@ -3,10 +3,11 @@ import TrackVisibility from "react-on-screen";
 import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
+import avatar2 from "../../images/avatar-2.png"
 
 const aboutContent = {
   name: "Bolby",
-  avatarImage: "/images/avatar-2.svg",
+  avatarImage: avatar2,
   content:
     "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
 };

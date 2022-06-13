@@ -28,6 +28,10 @@
     "sass": "^1.35.1",
     "slick-carousel": "^1.8.1"
   },
+  "engines": {
+    "node": "16.15.0",
+    "npm": "8.5.5"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -48,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-error-overlay": "^6.0.9"
   }
 }
