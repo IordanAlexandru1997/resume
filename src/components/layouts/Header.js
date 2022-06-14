@@ -93,17 +93,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 <i className="icon-layers"></i>Works
               </Link>
             </li>
-            <li>
-              <Link
-                activeClass="active"
-                to="section-blogs"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-note"></i>Blog
-              </Link>
-            </li>
+            
             <li>
               <Link
                 activeClass="active"
@@ -120,7 +110,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
 
         <div className="footer">
           <span className="copyright">
-            &copy; {new Date().getFullYear()} Bolby Template.
+            &copy; {new Date().getFullYear()} Alexandru Iordan.
           </span>
         </div>
       </header>

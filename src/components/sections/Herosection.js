@@ -2,6 +2,8 @@ import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
 import  avatar  from "../../images/avatar-1.png"
+import { Icon } from '@iconify/react';
+
 
 function Herosection(props) {
   const { x, y } = props.position;
@@ -32,28 +34,26 @@ function Herosection(props) {
             I'm a{" "}
             <Typed
               strings={[
-                "Software Engineer ",
+                "Software Engineer",
                 "Full Stack Web developer",
-                "Soft",
               ]}
               typeSpeed={80}
               backSpeed={40}
-              attr="value"
               loop
             >
-              <label value></label>
+              <label></label>
             </Typed>
           </p>
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-instagram"></i>
+              <a href="https://github.com/IordanAlexandru1997">
+                <i className="fab fa-github"></i>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-twitter"></i>
+                <i className="fab "><Icon icon="simple-icons:leetcode" /></i>
               </a>
             </li>
             <li className="list-inline-item">
