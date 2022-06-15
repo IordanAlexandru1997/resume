@@ -86,7 +86,8 @@ function About() {
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-6">
-                  <p>{aboutContent.content}</p>
+                <p>{aboutContent.content}</p>
+                <p>{aboutContent.content2}</p>
                   <div className="mt-3">
                   <a href="https://drive.google.com/uc?export=download&id=1aYYgqzkRagvOxxlNpPqyMaZHVIoPnofF" className="btn btn-default">
                       Download CV

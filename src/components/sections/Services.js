@@ -7,9 +7,9 @@ const servicesData = [
   {
     id: 1,
     icon: "images/service-1.svg",
-    title: "UI/UX design",
+    title: "Software Developer",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Experience in Python and Databases, worked with React+Redux, NodeJS and familiar with Apache Spark, Machine Learning Concepts, Hadoop Map-Reduce",
     color: "#6C6CE5",
     contentColor: "light",
   },
@@ -18,18 +18,18 @@ const servicesData = [
     icon: "images/service-2.svg",
     title: "Web Development",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Experienced working with HTML5, CSS3, JS, but also worked and completed projects with React+Redux, Express, Django and Bootstrap",
     color: "#F9D74C",
     contentColor: "dark",
   },
   {
     id: 3,
     icon: "images/service-3.svg",
-    title: "Photography",
+    title: "Data Scientist",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
-    color: "#F97B8B",
-    contentColor: "light",
+      "Experienced with web crawlers, web extraction tools, data processing, noSQL, good understanding of Machine Learning Concepts, familiar with Big Data tool Apache Hadoop and Apache Spark",
+    color: "#F9D74C",
+    contentColor: "dark",
   },
 ];
 

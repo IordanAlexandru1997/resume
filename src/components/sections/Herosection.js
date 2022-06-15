@@ -2,8 +2,6 @@ import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
 import  avatar  from "../../images/avatar-1.png"
-import { Icon } from '@iconify/react';
-
 
 function Herosection(props) {
   const { x, y } = props.position;
@@ -53,24 +51,10 @@ function Herosection(props) {
             </li>
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab "><Icon icon="simple-icons:leetcode" /></i>
+                <i className="fab fa-brain-circuit"></i>
               </a>
             </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-behance"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
-              </a>
-            </li>
+            
           </ul>
 
           <div className="mt-4">
