@@ -42,8 +42,8 @@ function Portfolio({ portfolio }) {
             <h4 className="title">{title}</h4>
             <span className="more-button">{handleIcon()}</span>
           </div>
-          <div className="thumb">
-            <img src={image} alt="Portfolio-title" />
+          <div className="thumb" style={{display:"flex", justifyContent:"center"}}>
+            <img  src={image} alt="Portfolio-title" />
             <div className="mask"></div>
           </div>
         </div>

@@ -36,7 +36,7 @@ const progressData = [
   {
     id: 4,
     title: "SQL or PL/SQL",
-    percantage: 85,
+    percantage: 75,
     progressColor: "#6C6CE5",
   },
 

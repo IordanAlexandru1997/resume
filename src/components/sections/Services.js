@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import Pagetitle from "../elements/Pagetitle";
 import Service from "../elements/Service";
 
@@ -28,7 +27,7 @@ const servicesData = [
     title: "Data Scientist",
     content:
       "Experienced with web crawlers, web extraction tools, data processing, noSQL, good understanding of Machine Learning Concepts, familiar with Big Data tool Apache Hadoop and Apache Spark",
-    color: "#F9D74C",
+    color: "#d6afed",
     contentColor: "dark",
   },
 ];
@@ -44,21 +43,6 @@ function Services() {
               <Service service={service} />
             </div>
           ))}
-        </div>
-        <div className="mt-5 text-center">
-          <p className="mb-0">
-            Looking for a custom job?{" "}
-            <Link
-              className="colorpink pointer"
-              to="section-contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              Click here
-            </Link>{" "}
-            to contact me! 👋
-          </p>
         </div>
       </div>
     </section>

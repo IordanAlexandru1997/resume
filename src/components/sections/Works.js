@@ -42,7 +42,7 @@ const allData = [
     id: 3,
     title: "Robo Friends App with Redux",
     category: "small",
-    image: "images/works/4.svg",
+    image: "images/works/3.svg",
     link: [
       "https://iordanalexandru1997.github.io/Robots/"
     ],
