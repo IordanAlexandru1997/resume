@@ -10,120 +10,42 @@ const filters = [
   },
   {
     id: 2,
-    text: "creative",
+    text: "big",
   },
   {
     id: 3,
-    text: "art",
+    text: "small",
   },
   {
     id: 4,
-    text: "design",
-  },
-  {
-    id: 5,
-    text: "branding",
+    text: "medium",
   },
 ];
 
 const allData = [
   {
     id: 1,
-    title: "Project Managment Illustration",
-    category: "art",
+    title: "Image Face Recognition Web Application",
+    category: "big",
     image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
+    link: ["https://facialrecognitionwebeu.herokuapp.com/"],
   },
   {
     id: 2,
-    title: "Guest App Walkthrough Screens",
-    category: "creative",
+    title: "Bachelors Thesis: Chatbot with full support for pacients with chronic diseases",
+    category: "big",
     image: "images/works/2.svg",
-    popupLink: [
-      "images/works/2.svg",
-      "images/works/5.svg",
-      "images/works/6.svg",
+    link: [
     ],
   },
   {
     id: 3,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/3.svg",
-    popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
-  },
-  {
-    id: 4,
-    title: "Onboarding Motivation",
-    category: "creative",
+    title: "Robo Friends App with Redux",
+    category: "small",
     image: "images/works/4.svg",
-    popupLink: [
-      "https://www.youtube.com/watch?v=URVHRhBSjj8",
-      "https://www.youtube.com/watch?v=qf9z4ulfmYw",
+    link: [
+      "https://iordanalexandru1997.github.io/Robots/"
     ],
-  },
-  {
-    id: 5,
-    title: "iMac Mockup Design",
-    category: "art",
-    image: "images/works/5.svg",
-    popupLink: ["images/works/5.svg"],
-  },
-  {
-    id: 6,
-    title: "Game Store App Concept",
-    category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
-  },
-  {
-    id: 7,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
-  },
-  {
-    id: 8,
-    title: "Guest App Walkthrough Screens",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
-  },
-  {
-    id: 9,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/4.svg",
-    popupLink: ["images/works/4.svg"],
-  },
-  {
-    id: 10,
-    title: "Game Store App Concept",
-    category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
-  },
-  {
-    id: 11,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
-  },
-  {
-    id: 12,
-    title: "Guest App Walkthrough Screens",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
-  },
-  {
-    id: 13,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/4.svg",
-    popupLink: ["images/works/4.svg"],
   },
 ];
 
@@ -137,7 +59,7 @@ function Works() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 6));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 3));
   }, [getAllItems]);
 
   const handleChange = (e) => {
