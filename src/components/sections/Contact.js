@@ -52,10 +52,10 @@ function Contact() {
 
   return (
     <section id="contact">
-      <div className="container">
+      <div className="container" >
         <Pagetitle title="Get in Touch" />
 
-        <div className="row">
+        <div className="row"  style={{display:"flex", justifyContent:"center"}}>
           <div className="col-md-4">
             <div className="contact-info">
               <ScrollAnimation
@@ -71,87 +71,11 @@ function Contact() {
                 animateOnce={true}
               >
                 <p>
-                  Don't like forms? Send me an{" "}
+                  Send me an{" "}
                   <a href="mailto:iordan.alexandru97@yahoo.com">email</a>. 👋
                 </p>
               </ScrollAnimation>
             </div>
-          </div>
-
-          <div className="col-md-8">
-            <form
-              id="contact-form"
-              className="contact-form mt-6"
-              onSubmit={submitHandler}
-            >
-              <div className="row">
-                <div className="column col-md-6">
-                  <div className="form-group">
-                    <input
-                      type="text"
-                      className="form-control"
-                      name="name"
-                      id="InputName"
-                      placeholder="Your name"
-                      onChange={handleChange}
-                      value={formdata.name}
-                    />
-                  </div>
-                </div>
-
-                <div className="column col-md-6">
-                  <div className="form-group">
-                    <input
-                      type="email"
-                      className="form-control"
-                      id="InputEmail"
-                      name="email"
-                      placeholder="Email address"
-                      onChange={handleChange}
-                      value={formdata.email}
-                    />
-                  </div>
-                </div>
-
-                <div className="column col-md-12">
-                  <div className="form-group">
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="InputSubject"
-                      name="subject"
-                      placeholder="Subject"
-                      onChange={handleChange}
-                      value={formdata.subject}
-                    />
-                  </div>
-                </div>
-
-                <div className="column col-md-12">
-                  <div className="form-group">
-                    <textarea
-                      name="message"
-                      id="InputMessage"
-                      className="form-control"
-                      rows="5"
-                      placeholder="Message"
-                      onChange={handleChange}
-                      value={formdata.message}
-                    ></textarea>
-                  </div>
-                </div>
-              </div>
-              <button
-                type="submit"
-                name="submit"
-                id="submit"
-                value="Submit"
-                className="btn btn-default"
-              >
-                Send Message
-              </button>
-            </form>
-            {handleAlerts()}
           </div>
         </div>
       </div>
