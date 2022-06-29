@@ -11,8 +11,10 @@ const aboutContent = {
   content:
     "Not your average software developer. Challenging projects, new technologies, team-work involvement and an unwavering positive vibe.",
   content2:
-    "Fun to be around with, sociable and energic are some of my friends words to describe me."
-  };
+    "Fun to be around with, sociable and energic are some of my friends words to describe me.",
+  content3:
+    "The progress bar is more intuitive and refers to the technologies i am most comfortable with."
+};
 
 const progressData = [
   {
@@ -86,10 +88,11 @@ function About() {
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-6">
-                <p>{aboutContent.content}</p>
-                <p>{aboutContent.content2}</p>
+                  <p>{aboutContent.content}</p>
+                  <p>{aboutContent.content2}</p>
+                  <p>{aboutContent.content3}</p>
                   <div className="mt-3">
-                  <a href="https://drive.google.com/uc?export=download&id=1aYYgqzkRagvOxxlNpPqyMaZHVIoPnofF" className="btn btn-default">
+                    <a href="https://drive.google.com/uc?export=download&id=1aYYgqzkRagvOxxlNpPqyMaZHVIoPnofF" className="btn btn-default">
                       Download CV
                     </a>
                   </div>

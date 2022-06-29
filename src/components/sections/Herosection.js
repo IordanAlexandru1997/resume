@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
-import  avatar  from "../../images/avatar-1.png"
+import avatar from "../../images/avatar-1.png"
 
 function Herosection(props) {
   const { x, y } = props.position;
@@ -34,6 +34,7 @@ function Herosection(props) {
               strings={[
                 "Software Engineer",
                 "Full Stack Web developer",
+                "Software Developer"
               ]}
               typeSpeed={80}
               backSpeed={40}
@@ -50,11 +51,17 @@ function Herosection(props) {
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-brain-circuit"></i>
+              <a href="https://medium.com/@iordan.alexandru97">
+                <img src="images/medium.svg" />
               </a>
             </li>
-            
+            <li className="list-inline-item">
+              <a href="https://leetcode.com/IordanAlex/">
+                <img src="images/leetcode.svg" />
+              </a>
+            </li>
+
+
           </ul>
 
           <div className="mt-4">
