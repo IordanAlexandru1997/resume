@@ -12,7 +12,7 @@ const allBlogs = [
     link: "https://medium.com/@iordan.alexandru97/is-the-life-quality-of-a-country-reflected-on-twitter-4f2dd23f18c0",
     date: "29 June, 2022",
     author: "Alexandru Iordan",
-    category: "Reviews",
+    category: "Statistics",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const allBlogs = [
     link: "https://medium.com/@iordan.alexandru97/is-google-search-results-ranking-mitigated-or-influenced-in-any-way-by-the-users-query-a4a491a4df8e",
     date: "25 June, 2022",
     author: "Alexandru Iordan",
-    category: "Tutorial",
+    category: "Research",
   },
 ];
 
