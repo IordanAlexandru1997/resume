@@ -8,6 +8,7 @@ import Experiences from "../components/sections/Experiences";
 import Herosection from "../components/sections/Herosection";
 import Services from "../components/sections/Services";
 import Works from "../components/sections/Works";
+import Blogs from "../components/sections/Blogs";
 
 function Homepage() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -47,6 +48,9 @@ function Homepage() {
         </Element>
         <Element name="section-works">
           <Works />
+        </Element>
+        <Element name="section-blogs">
+          <Blogs />
         </Element>
         <Element name="section-contact">
           <Contact />

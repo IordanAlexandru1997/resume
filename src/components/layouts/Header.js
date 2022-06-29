@@ -93,7 +93,19 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 <i className="icon-layers"></i>Projects
               </Link>
             </li>
-            
+
+            <li>
+              <Link
+                activeClass="active"
+                to="section-blogs"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="icon-note"></i>Blog
+              </Link>
+            </li>
+
             <li>
               <Link
                 activeClass="active"
