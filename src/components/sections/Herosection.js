@@ -52,12 +52,12 @@ function Herosection(props) {
             </li>
             <li className="list-inline-item">
               <a href="https://medium.com/@iordan.alexandru97">
-                <img src="images/medium.svg" />
+                <img alt="medium" src="images/medium.svg" />
               </a>
             </li>
             <li className="list-inline-item">
               <a href="https://leetcode.com/IordanAlex/">
-                <img src="images/leetcode.svg" />
+                <img alt="leetcode" src="images/leetcode.svg" />
               </a>
             </li>
 
