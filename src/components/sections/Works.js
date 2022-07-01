@@ -28,7 +28,7 @@ const allData = [
     title: "Image Face Recognition Web Application",
     category: "big",
     image: "images/works/1.svg",
-    link: ["https://facialrecognitionwebeu.herokuapp.com/"],
+    link: ["https://faceapp.alexandruiordan.de/"],
   },
   {
     id: 2,
