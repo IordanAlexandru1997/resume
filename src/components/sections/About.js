@@ -92,7 +92,7 @@ function About() {
                   <p>{aboutContent.content2}</p>
                   <p>{aboutContent.content3}</p>
                   <div className="mt-3">
-                    <a href="https://drive.google.com/uc?export=download&id=1--locB8nJk_C1xSDIppiJ_OwkBJiwg1f" className="btn btn-default">
+                    <a href="https://drive.google.com/uc?export=download&id=1_fpqtyca7WmnIfDmjE6-FlO0OOlZ_mOQILwlBYQ65og" className="btn btn-default">
                       Download CV !
                     </a>
                   </div>

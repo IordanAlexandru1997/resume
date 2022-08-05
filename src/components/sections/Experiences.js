@@ -36,7 +36,7 @@ const experienceData = [
   },
   {
     id: 2,
-    title: "Computer Programmer",
+    title: "Software Engineer",
     years: "06.2018-10.2018",
     content:
       "Tool developed in Java that detects, extracts data and queries for common traces of a PR.",
