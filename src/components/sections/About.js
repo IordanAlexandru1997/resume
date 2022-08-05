@@ -4,6 +4,7 @@ import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 import avatar2 from "../../images/avatar-2.png"
+import Pdf from '../../Alexandru_Iordan_Resume.pdf';
 
 const aboutContent = {
   name: "Alexandru Iordan",
@@ -19,7 +20,7 @@ const aboutContent = {
 const progressData = [
   {
     id: 1,
-    title: "React",
+    title: "Java",
     percantage: 75,
     progressColor: "#FFD15C",
   },
@@ -31,17 +32,10 @@ const progressData = [
   },
   {
     id: 3,
-    title: "Express",
+    title: "C++",
     percantage: 65,
     progressColor: "#6C6CE5",
-  },
-  {
-    id: 4,
-    title: "SQL or PL/SQL",
-    percantage: 75,
-    progressColor: "#6C6CE5",
-  },
-
+  }
 ];
 
 const counterData = [
@@ -92,7 +86,7 @@ function About() {
                   <p>{aboutContent.content2}</p>
                   <p>{aboutContent.content3}</p>
                   <div className="mt-3">
-                    <a href="https://drive.google.com/uc?export=download&id=1_fpqtyca7WmnIfDmjE6-FlO0OOlZ_mOQILwlBYQ65og" className="btn btn-default">
+                    <a href={Pdf} target="_blank" rel="noreferrer" className="btn btn-default">
                       Download CV !
                     </a>
                   </div>
