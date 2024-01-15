@@ -8,7 +8,7 @@ const educationData = [
     title: "Master of Web and Data Science",
     years: "2021-Present",
     content:
-      "Sharpening my knowledge about Machine Learning, Data Processing, Algorithms and Web.",
+      "This Master's program allowed me to explore the world of academia and research from a different perspective. I was co-opted into the CEIR (Center for Enterprise Information Research) Group and brought significant contributions to the research projects I led.",
   },
   {
     id: 2,
@@ -29,17 +29,24 @@ const educationData = [
 const experienceData = [
   {
     id: 1,
-    title: "Software Developer",
+    title: "Software System Engineer",
     years: "06.2019-10.2019",
     content:
-      "Web application that serves the process between tester and developer using a bridge between Python and Java, data preprocessing, SQL queries and servers.",
+      "Currently leading teams in developing software translation tools using Java, REST APIs and modeling frameworks to improve the security of models.",
+  },
+  {
+    id: 1,
+    title: "Full-stack Developer",
+    years: "06.2019-11.2019",
+    content:
+      "Engineered a high-speed log parsing application able to process 100,000 traces per hour by integrating Java, Python, messaging queues and database checks to identify complex patterns.",
   },
   {
     id: 2,
-    title: "Software Engineer",
-    years: "06.2018-10.2018",
+    title: "Full-stack Developer",
+    years: "06.2018-11.2018",
     content:
-      "Tool developed in Java that detects, extracts data and queries for common traces of a PR.",
+      "Developed Java tool to automatically extract problem reports, reducing resolution time by 60%, and created a Python/MySQL database solution to speed up verification workflows.",
   },
 ];
 
