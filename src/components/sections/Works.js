@@ -23,24 +23,37 @@ const filters = [
 ];
 
 const allData = [
+
   {
     id: 1,
-    title: "Image Face Recognition Web Application",
+    title: "Master Thesis: Configurable Graph Database Benchmark",
     category: "big",
+    image: "images/works/4.svg",
+    link: ["http://141.26.157.78:8080/"],
+  },  {
+    id: 2,
+    title: "Image Face Recognition Web Application",
+    category: "medium",
     image: "images/works/1.svg",
     link: ["https://faceapp.alexandruiordan.de/"],
   },
   {
-    id: 2,
+    id: 3,
+    title: "Research Project: Configurable Database Classifier System",
+    category: "big",
+    image: "images/works/5.svg",
+    link: ["https://dbclassifiersystem.onrender.com/"],
+  },  
+  {
+    id: 4,
     title: "Bachelors Thesis: Chatbot with full support for pacients with chronic diseases",
     category: "big",
     image: "images/works/2.svg",
-    link: [
-    ],
+    link: [],
   },
   {
-    id: 3,
-    title: "Robo Friends App with Redux",
+    id: 5,
+    title: "Learning Project developed with Redux",
     category: "small",
     image: "images/works/3.svg",
     link: [
@@ -81,22 +94,24 @@ function Works() {
   const handleLoadmore = (e) => {
     e.preventDefault();
     let tempCount = dataVisibleCount + dataIncrement;
-    if (dataVisibleCount > getAllItems.length) {
+  
+    setDataVisibleCount(tempCount);
+  
+    if (tempCount >= getAllItems.length) {
       setNoMorePost(true);
-    } else {
-      setDataVisibleCount(tempCount);
-      if (activeFilter === filters[0].text.toLowerCase()) {
-        console.log("they are same");
-        setVisibleItems(getAllItems.filter((data) => data.id <= tempCount));
-      } else {
-        setVisibleItems(
-          getAllItems.filter(
-            (data) => data.category === activeFilter && data.id <= tempCount
-          )
-        );
-      }
+      tempCount = getAllItems.length; 
     }
+  
+    let filteredItems = getAllItems;
+    if (activeFilter !== filters[0].text.toLowerCase()) {
+      filteredItems = filteredItems.filter(
+        (data) => data.category === activeFilter
+      );
+    }
+  
+    setVisibleItems(filteredItems.slice(0, tempCount));
   };
+  
 
   return (
     <section id="works">
@@ -141,8 +156,8 @@ function Works() {
           <button
             className="btn btn-default"
             onClick={handleLoadmore}
-            disabled={noMorePost ? "disabled" : null}
-          >
+            disabled={noMorePost}
+            >
             {noMorePost ? (
               "No more items"
             ) : (
