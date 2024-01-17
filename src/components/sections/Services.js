@@ -6,27 +6,27 @@ const servicesData = [
   {
     id: 1,
     icon: "images/service-1.svg",
-    title: "Software Developer",
+    title: "Software Engineer",
     content:
-      "Experience in Python and Databases, worked with React+Redux, NodeJS and familiar with Apache Spark, Machine Learning Concepts, Hadoop Map-Reduce",
+      "Accomplished Software Engineer with a focus on process optimization at Neovendi GmBH. Specializes in designing and developing high-performance software solutions, leading teams, and managing project deliverables in a multinational environment. Expertise in Java, Python, AWS, Docker, and REST APIs.",
     color: "#6C6CE5",
     contentColor: "light",
   },
   {
     id: 2,
     icon: "images/service-2.svg",
-    title: "Web Development",
+    title: "Full-stack",
     content:
-      "Experienced working with HTML5, CSS3, JS, but also worked and completed projects with React+Redux, Express, Django and Bootstrap",
+      "Dynamic Full-Stack Developer experienced at Continental AG. Skilled in creating efficient software solutions and automating workflows using Agile methods. Demonstrated ability in Python, Java, Docker, Django, and CI/CD technologies for enhanced performance and scalability.",
     color: "#F9D74C",
     contentColor: "dark",
   },
   {
     id: 3,
     icon: "images/service-3.svg",
-    title: "Data Scientist",
+    title: "Cloud Engineer",
     content:
-      "Experienced with web crawlers, web extraction tools, data processing, noSQL, good understanding of Machine Learning Concepts, familiar with Big Data tool Apache Hadoop and Apache Spark",
+      "Certified AWS Cloud Practitioner adept at leveraging cloud technologies for optimized solution deployment and management. Proficient in AWS EC2, S3, RDS, Lambda, and CloudFormation, with a strong focus on serverless architecture, DevOps approaches, and agile methodology.",
     color: "#d6afed",
     contentColor: "dark",
   },

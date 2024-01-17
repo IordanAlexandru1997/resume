@@ -117,6 +117,8 @@ function Works() {
     <section id="works">
       <div className="container">
         <Pagetitle title="Recent Projects" />
+        <p>Please note that the loading speed of several projects might be slow due to the hosting plans.</p>
+        <p>Thank you for your patience.</p>
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
